@@ -3,9 +3,9 @@ $(document).ready(function() {
         activity: true
     });
 
-     $('a[data-imagelightbox="types"]').imageLightbox({
-	 allowedTypes: "gif"
-     });
+    $('a[data-imagelightbox="types"]').imageLightbox({
+        allowedTypes: "gif"
+    });
 
     $('a[data-imagelightbox="b"]').imageLightbox({
         overlay: true
@@ -29,7 +29,7 @@ $(document).ready(function() {
         arrows: true
     });
 
-     $('a[data-imagelightbox="history"]').imageLightbox({
+    $('a[data-imagelightbox="history"]').imageLightbox({
         history: true
     });
 

@@ -98,12 +98,13 @@
             return false;
         };
 
-   //  var instances = {};
-//     var classes = $("a[data-imagelightbox]").map(function(indx, element){
-//         var key = $(element).attr("data-imagelightbox");
-//         instances[key] = true;
-//         return instances;
-//     });
+    //  var instances = {};
+    //     var classes = $("a[data-imagelightbox]").map(function(indx, element){
+    //         var key = $(element).attr("data-imagelightbox");
+    //         instances[key] = true;
+    //         return instances;
+    //     });
+
     $.fn.imageLightbox = function (opts) {
 
         var options = $.extend({
