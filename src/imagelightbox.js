@@ -90,6 +90,7 @@
         var options = $.extend({
                 selector:       'a[data-imagelightbox]',
                 id:             'imagelightbox',
+                imgCssClass:    '',
                 allowedTypes:   'png|jpg|jpeg|gif', // TODO make it work again
                 animationSpeed: 250,
                 activity:       false,
@@ -388,6 +389,10 @@
                         .on('error.ilb7', function () {
                             _onLoadEnd();
                         });
+                    
+                    if (options.imgCssClass != ''){
+                        image.addClass(options.imgCssClass);
+                    }
 
                     var swipeStart = 0,
                         swipeEnd = 0,
